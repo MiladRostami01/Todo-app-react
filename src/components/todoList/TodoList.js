@@ -1,13 +1,15 @@
-import React from 'react'
-import Todo from '../../pages/Todo'
+import Todo from '../../components/todo/Todo'
 
-function TodoList() {
+function TodoList({filteredTodos, onDeleteTodo, todoStatus}) {
   return (
     <div>
-      todo list
-      <Todo />
-      <Todo />
-      <Todo />
+      {filteredTodos.map(todo => {
+        return <Todo key={todo.id} 
+        todo={todo} 
+        onDeleteTodo={onDeleteTodo}
+        todoStatus={todoStatus} 
+      />
+      })}
     </div>
   )
 }

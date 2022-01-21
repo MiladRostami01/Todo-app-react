@@ -1,10 +1,12 @@
-import Todo from "./pages/Todo";
+import TodoPage from "./pages/TodoPage";
+import Layout from "./components/layout/Layout";
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <Todo />
-    </div>
+    <Layout>
+      <TodoPage />
+    </Layout>
   );
 }
 
