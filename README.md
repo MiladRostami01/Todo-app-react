@@ -1,11 +1,10 @@
 # Todo App
 
-## Live link
-URL:[Live](https://todoapp-react-eight.vercel.app/)
+## [Live](https://todoapp-react-eight.vercel.app/) link
 
 ### Screenshot
 
-![](./assets/img/screenShot.png)
+![](./src/assets/img/screenShot.png)
 
 ## Author
 
