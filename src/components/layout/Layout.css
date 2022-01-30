@@ -4,3 +4,10 @@
   height: auto;
   margin: 0 auto;
 }
+
+.title{
+  margin-top: 40px;
+  text-align: center;
+  color: #403673;
+  font-size: 60px;
+}

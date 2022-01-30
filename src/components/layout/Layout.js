@@ -2,7 +2,10 @@ import "./Layout.css"
 
 function layout({children}) {
   return (
-    <main className="mainContent">{children}</main>
+    <>
+      <h1 className="title">Todo App</h1>
+      <main className="mainContent">{children}</main>
+    </>
   )
 }
 

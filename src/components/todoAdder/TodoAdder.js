@@ -51,7 +51,7 @@ const ContainerStyle = styled.div`
   align-items: center;
   box-shadow: 0px 0px 30px 0px #00000022;
   padding: 20px;
-  margin-top: 60px;
+  margin-top: 25px;
   border-radius: 5px;
 `
 
