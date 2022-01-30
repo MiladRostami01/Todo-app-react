@@ -1,6 +1,6 @@
 # Todo App
 
-## [Live](https://todoapp-react-eight.vercel.app/) link
+## [Live link](https://todoapp-react-eight.vercel.app/)
 
 ### Screenshot
 
