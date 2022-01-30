@@ -18,7 +18,7 @@ function TodoAdder({onAddTodo, selectStatusHandler, selectStatus}) {
 
     onAddTodo(newTodo)
     
-    // inputRef.current.value = ''
+    inputRef.current.value = ''
   }
 
   return (
